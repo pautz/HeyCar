@@ -1,60 +1,52 @@
 # 🚗 HeyCar
 
-O **HeyCar** é um sistema em PHP desenvolvido para organizar caronas e transporte colaborativo.  
-Ele oferece uma plataforma simples para cadastrar, gerenciar e acompanhar caronas, com integração a banco de dados para registrar informações de rotas e transações.
 <img width="489" height="512" alt="ok1" src="https://github.com/user-attachments/assets/4e47feb8-1aad-4169-bd22-cf1f9736cd4f" />
 <img width="489" height="512" alt="ok2" src="https://github.com/user-attachments/assets/07c1ca1a-a83e-4dfd-a687-1cd1224ee11f" />
 <img width="489" height="512" alt="ok3" src="https://github.com/user-attachments/assets/19e9e1a4-6422-44a6-bef6-0a6e48c0f0ce" />
 <img width="342" height="573" alt="ok4" src="https://github.com/user-attachments/assets/cb14bfde-95f0-461e-8ff4-48a950bb0ef7" />
 
 
+🔧 O que o projeto faz
+HeyCar é um sistema em PHP para organizar caronas e transporte colaborativo.
 
+Permite cadastrar caronas, gerenciar rotas e participantes, e controlar transações ligadas ao transporte.
 
----
+Usa MySQL como banco de dados, com scripts SQL já incluídos no repositório.
 
-## 📌 Funcionalidades
-- Cadastro e gerenciamento de caronas  
-- Organização de rotas e participantes  
-- Controle de transações relacionadas ao transporte  
-- Estrutura de banco de dados relacional (scripts SQL incluídos)  
-- Interface inicial via `index.php`  
+A interface inicial é acessada via index.php.
 
----
+📂 Estrutura principal
+caronas/, caronas2/, caronas3/ → versões/módulos do sistema.
 
-## 🛠️ Tecnologias utilizadas
-- **PHP** – linguagem principal do sistema  
-- **MySQL** – banco de dados relacional  
-- **HTML/CSS** – interface básica  
+transacao_aura_transporte.php → lógica de transações.
 
----
+u839226731_meutrator.sql → script para criar o banco de dados.
 
-## 🚀 Objetivo
-Facilitar a mobilidade colaborativa, permitindo que pessoas se conectem e compartilhem trajetos de forma prática e organizada.
+index.php → ponto de entrada da aplicação.
 
----
+▶️ Como rodar o código
+Instale um servidor local:
 
-## 📂 Estrutura do projeto
-- `caronas/`, `caronas2/`, `caronas3/` → versões e módulos do sistema  
-- `cadastro_produto/` → funcionalidades de cadastro  
-- `transacao_aura_transporte.php` → lógica de transações de transporte  
-- `u839226731_meutrator.sql` → script de banco de dados  
-- `index.php` → ponto de entrada da aplicação  
+Pode usar XAMPP, Laragon ou Docker com PHP + MySQL.
 
----
+Clone o repositório:
 
-## 🔑 Topics
-Adicione estes tópicos ao repositório para melhorar a visibilidade:
-- `php`  
-- `caronas`  
-- `transporte-compartilhado`  
-- `ridesharing`  
-- `carpooling`  
-- `mobilidade`  
-- `sistema-web`  
-- `banco-de-dados`  
-- `open-source`  
+bash
+git clone https://github.com/pautz/HeyCar.git
+Coloque os arquivos na pasta do servidor (ex.: htdocs/HeyCar no XAMPP).
 
----
+Crie o banco de dados:
 
-## 🔗 Repositório
-👉 [https://github.com/pautz/HeyCar](https://github.com/pautz/HeyCar)
+Acesse o phpMyAdmin ou MySQL CLI.
+
+Importe o arquivo u839226731_meutrator.sql.
+
+Configure a conexão:
+
+Verifique nos arquivos .php se há credenciais de conexão (host, user, password, dbname).
+
+Ajuste conforme seu ambiente.
+
+Abra no navegador:
+
+Digite http://localhost/HeyCar/index.php.
