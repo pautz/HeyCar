@@ -49,3 +49,5 @@ Ajuste conforme seu ambiente.
 Abra no navegador
 
 Digite: http://localhost/HeyCar/index.php
+
+Aí basta configurar o cronjobs para toda meia noite rodar o codigo excluir_voos_cron.php
