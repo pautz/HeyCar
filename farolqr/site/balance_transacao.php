@@ -24,7 +24,7 @@ $saldoAura = $userData["saldo_total"] ?? 0;
 $stmtUser->close();
 // 🚨 Se não encontrar o usuário na tabela, redireciona para identificação
 if (!$userData) {
-    header("Location: https://carlitoslocacoes.com/farolqr/site/identificacao_farolqr.php");
+    header("Location: https://carlitoslocacoes.com/HeyCar/farolqr/site/identificacao_farolqr.php");
     exit;
 }
 
@@ -330,7 +330,7 @@ img.qr {
 <a href="https://carlitoslocacoes.com/venda_aura/" class="btn-aura" target="_blank">🌐 Venda Aura</a>
 <a href="https://carlitoslocacoes.com/todofarol/site2/nossasmaquinas/gestao.php" class="btn-aura" target="_blank">🌐 Gestão</a>
 
-<a href="https://carlitoslocacoes.com/farolqr/site/logout.php" class="btn-aura">Sair</a>
+<a href="https://carlitoslocacoes.com/HeyCar/farolqr/site/logout.php" class="btn-aura">Sair</a>
 
     <h2>🔐 Painel de Aura</h2>
 <p><strong>Caixa Postal:</strong> <?= htmlspecialchars(html_entity_decode($caixaUsuario, ENT_QUOTES | ENT_HTML5, 'UTF-8')) ?></p>
