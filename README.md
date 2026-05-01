@@ -6,47 +6,46 @@
 <img width="342" height="573" alt="ok4" src="https://github.com/user-attachments/assets/cb14bfde-95f0-461e-8ff4-48a950bb0ef7" />
 
 
-🔧 O que o projeto faz
-HeyCar é um sistema em PHP para organizar caronas e transporte colaborativo.
+# HeyCar 🚗
 
-Permite cadastrar caronas, gerenciar rotas e participantes, e controlar transações ligadas ao transporte.
+**HeyCar** é um sistema em **PHP** para organizar caronas e transporte colaborativo.  
+Ele permite **cadastrar caronas**, **gerenciar rotas e participantes**, e **controlar transações** ligadas ao transporte.  
+O projeto utiliza **MySQL** como banco de dados, com scripts SQL já incluídos.
 
-Usa MySQL como banco de dados, com scripts SQL já incluídos no repositório.
+---
 
-A interface inicial é acessada via index.php.
+## 📂 Estrutura do Projeto
+- `caronas/`, `caronas2/`, `caronas3/` → versões/módulos do sistema  
+- `transacao_aura_transporte.php` → lógica de transações  
+- `u839226731_meutrator.sql` → script para criar o banco de dados  
+- `index.php` → ponto de entrada da aplicação  
 
-📂 Estrutura principal
-caronas/, caronas2/, caronas3/ → versões/módulos do sistema.
+---
 
-transacao_aura_transporte.php → lógica de transações.
+## ▶️ Como Rodar o Código
 
-u839226731_meutrator.sql → script para criar o banco de dados.
+1. **Instale um servidor local**  
+   - Pode usar **XAMPP**, **Laragon** ou **Docker** com PHP + MySQL.
 
-index.php → ponto de entrada da aplicação.
+2. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/pautz/HeyCar.git
+Coloque os arquivos na pasta do servidor
 
-▶️ Como rodar o código
-Instale um servidor local:
+Exemplo: htdocs/HeyCar no XAMPP.
 
-Pode usar XAMPP, Laragon ou Docker com PHP + MySQL.
-
-Clone o repositório:
-
-bash
-git clone https://github.com/pautz/HeyCar.git
-Coloque os arquivos na pasta do servidor (ex.: htdocs/HeyCar no XAMPP).
-
-Crie o banco de dados:
+Crie o banco de dados
 
 Acesse o phpMyAdmin ou MySQL CLI.
 
 Importe o arquivo u839226731_meutrator.sql.
 
-Configure a conexão:
+Configure a conexão
 
-Verifique nos arquivos .php se há credenciais de conexão (host, user, password, dbname).
+Verifique nos arquivos .php as credenciais de conexão (host, user, password, dbname).
 
 Ajuste conforme seu ambiente.
 
-Abra no navegador:
+Abra no navegador
 
-Digite http://localhost/HeyCar/index.php.
+Digite: http://localhost/HeyCar/index.php
