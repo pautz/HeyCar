@@ -189,7 +189,7 @@ input.form-control {
                 <input type="submit" class="btn btn-primary btn-xl" value="Entrar">
                 <a class="btn btn-info btn-xl" href="https://carlitoslocacoes.com/HeyCar" role="button">Início</a>
             </div>
-            <p>Não fez o registro no Sistema ainda?<br> <a href="https://carlitoslocacoes.com/farolqr/site/register_odonto2.php" class="btn btn-success btn-xl">Registrar-se</a></p>
+            <p>Não fez o registro no Sistema ainda?<br> <a href="https://carlitoslocacoes.com/HeyCar/farolqr/site/register_odonto2.php" class="btn btn-success btn-xl">Registrar-se</a></p>
         </form>
         </div>
     </div>   
