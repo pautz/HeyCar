@@ -51,3 +51,10 @@ Abra no navegador
 Digite: http://localhost/HeyCar/index.php
 
 Aí basta configurar o cronjobs para toda meia noite rodar o codigo excluir_voos_cron.php
+e também utilizar
+
+UPDATE identificacao_odonto2
+SET saldo_total = saldo_total + 20000
+WHERE caixa_postal = 'IOTA_ea96f72e72';
+
+para fazer o update de saldo para caixa criada
