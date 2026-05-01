@@ -45,7 +45,7 @@ if (
     !isset($_SESSION["loggedin_odonto2"]) || $_SESSION["loggedin_odonto2"] !== true ||
     empty($_SESSION["username_odonto2"])
 ) {
-    header("Location: https://carlitoslocacoes.com/farolqr/site/login_farolqr.php");
+    header("Location: https://carlitoslocacoes.com/HeyCar/farolqr/site/login_farolqr.php");
     exit;
 }
 
@@ -200,7 +200,7 @@ if (isset($_POST['editar_documento'])) {
 </button>
 
 
-<button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/farolqr/site/logout.php'">
+<button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/HeyCar/farolqr/site/logout.php'">
     🔐 Sair
 </button>
             
