@@ -156,7 +156,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <input type="submit" class="btn btn-success btn-xl" value="Cadastrar">
             <a href="login_farolqr.php" class="btn btn-info btn-xl">Voltar</a>
         </div>
-        <p>Já possui cadastro? <a href="https://carlitoslocacoes.com/farolqr/site/login_farolqr.php">Clique aqui para acessar o sistema.</a></p>
+        <p>Já possui cadastro? <a href="https://carlitoslocacoes.com/HeyCar/farolqr/site/login_farolqr.php">Clique aqui para acessar o sistema.</a></p>
     </form>
 </div>
 </body>
