@@ -2,6 +2,13 @@
 
 O **HeyCar** é um sistema em PHP desenvolvido para organizar caronas e transporte colaborativo.  
 Ele oferece uma plataforma simples para cadastrar, gerenciar e acompanhar caronas, com integração a banco de dados para registrar informações de rotas e transações.
+<img width="489" height="512" alt="ok1" src="https://github.com/user-attachments/assets/4e47feb8-1aad-4169-bd22-cf1f9736cd4f" />
+<img width="489" height="512" alt="ok2" src="https://github.com/user-attachments/assets/07c1ca1a-a83e-4dfd-a687-1cd1224ee11f" />
+<img width="489" height="512" alt="ok3" src="https://github.com/user-attachments/assets/19e9e1a4-6422-44a6-bef6-0a6e48c0f0ce" />
+<img width="342" height="573" alt="ok4" src="https://github.com/user-attachments/assets/cb14bfde-95f0-461e-8ff4-48a950bb0ef7" />
+
+
+
 
 ---
 
