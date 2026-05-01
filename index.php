@@ -1,6 +1,6 @@
 <?php
 // Redireciona após alguns segundos
-header("Refresh: 3; url=https://carlitoslocacoes.com/HeyCar/caronas2/nossasmaquinas/voos.php");
+header("Refresh: 3; url=http://localhost/HeyCar/caronas2/nossasmaquinas/voos.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -18,7 +18,7 @@ header("Refresh: 3; url=https://carlitoslocacoes.com/HeyCar/caronas2/nossasmaqui
        Aqui você encontra opções seguras, econômicas e sustentáveis para viajar.</p>
 
     <p>Você será redirecionado em alguns segundos para nossa página de voos: 
-       <a href="https://carlitoslocacoes.com/HeyCar/caronas2/nossasmaquinas/voos.php">
+       <a href="http://localhost/HeyCar/caronas2/nossasmaquinas/voos.php">
        Clique aqui se não for redirecionado automaticamente</a>.</p>
 </body>
 </html>
