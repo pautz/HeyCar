@@ -58,3 +58,4 @@ SET saldo_total = saldo_total + 20000
 WHERE caixa_postal = 'IOTA_ea96f72e72';
 
 para fazer o update de saldo para caixa criada
+lembrando que tem que atualizar o eu nao sou robo para seus tokens
