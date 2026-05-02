@@ -195,7 +195,7 @@ if (isset($_POST['editar_documento'])) {
 </form>
 
 <!-- Botão separado que só redireciona -->
-<button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/todofarol'">
+<button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/HeyCar/'">
     Início
 </button>
 
@@ -224,7 +224,7 @@ if (isset($_POST['editar_documento'])) {
                     <input type="hidden" name="editar_documento" value="1">
                     <button type="submit">✏️ Editar Documento</button>
                 </form>
-               <button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/farolqr/site/balance_transacao.php'">
+               <button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/HeyCar/farolqr/site/balance_transacao.php'">
     Banco
 </button>
                 <button class="btn-login" onclick="window.location.href='https://carlitoslocacoes.com/index.php'">
